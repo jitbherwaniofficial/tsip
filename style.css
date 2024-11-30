@@ -233,7 +233,7 @@ a {
 
 .second_section_title {
     width: 80%;
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-weight: var(--normal);
     padding-bottom: 3vw;
 }
@@ -322,7 +322,7 @@ a {
 
 .service_box_left img {
     padding-top: 2vw;
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
 }
@@ -343,7 +343,7 @@ a {
 }
 
 .service_box_right_title {
-    font-size: 2.5vw;
+    font-size: 2vw;
     padding-bottom: 2vw;
 }
 
@@ -356,11 +356,14 @@ a {
     padding: 2vw;
     flex-direction: column;
     position: relative;
-    padding-bottom: 7vw;
+    padding-bottom: 6vw;
+    margin: 0 auto;
 }
 
 .service_box_menu_top p {
-    font-size: 2vw;
+    font-size: 1.7vw;
+    font-family: var(--para-font);
+    font-weight: var(--semi-bold);
 }
 
 .service_box_menu_bottom {
@@ -375,8 +378,10 @@ a {
 }
 
 .service_box_menu_bottom a {
-    font-size: 2vw;
-    color: var(--white-color);
+    font-size: 1.8vw;
+    color: var(--yellow-color);
+    font-family: var(--para-font);
+    font-weight: var(--bold);
 }
 
 .pill.active {
@@ -400,6 +405,13 @@ a {
     justify-content: center;
     align-items: center;
     height: auto;
+  }
+
+  .queries {
+    font-size: 1.8vw;
+    padding-top: 3vw;
+    text-align: center;
+    font-family: var(--para-font);
   }
 
 /* SECOND SECTION ENDS ********************************************************************** */
