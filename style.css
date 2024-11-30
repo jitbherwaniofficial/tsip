@@ -589,6 +589,12 @@ a {
     padding: var(--section-padding);
 }
 
+.fifth_section_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .fifth_left {
     width: 40%;
     display: flex;
@@ -603,18 +609,19 @@ a {
 }
 
 .fifth_right {
-    width: 60%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 4.5vw;
+    gap: 2.5vw;
 }
 
 .fifth_section_box {
     background-color: var(--yellow-color);
     padding:2vw;
-    width: 45%;
+    width: 47%;
+    height: 25vw;
     border-radius: 2.5vw;
     display: flex;
     justify-content: center;
