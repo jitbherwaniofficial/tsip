@@ -195,7 +195,7 @@ a {
     border-radius: 50%;
     object-fit: cover;
     margin: 25px 0;
-    border: 20px solid var(--dark-green-color);
+    border: 15px solid var(--dark-green-color);
 }
 
 
