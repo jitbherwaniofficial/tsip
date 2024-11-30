@@ -163,7 +163,7 @@ a {
     position: absolute;
     top: 0;
     right: 0;
-    width: 32%;
+    width: 33%;
     height: 100vh;
     background-color: var(--yellow-color);
     display: flex;
