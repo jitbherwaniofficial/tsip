@@ -325,6 +325,7 @@ a {
     width: 80%;
     height: 100%;
     object-fit: cover;
+    filter: drop-shadow(4px 4px 8px rgba(255,255,255,0.5));
 }
 
 .service_box_right {
@@ -414,4 +415,89 @@ a {
     font-family: var(--para-font);
   }
 
+  .queries a {
+    color: var(--dark-green-color);
+    font-family: var(--para-font);
+    text-decoration: underline;
+  }
+
+  .pattern3 {
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    width: 14vw;
+  }
+
+  .pattern3 img {
+    width: 100%;
+    height: 100%;
+  }
+
 /* SECOND SECTION ENDS ********************************************************************** */
+
+
+/* THIRD SECTION STARTS ********************************************************************** */
+
+.third_section {
+    background-color: var(--yellow-color);
+    position: relative;
+}
+
+.meal_tracker {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+}
+
+.third_section_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw 0;
+}
+
+.third_section_title {
+    font-size: 3vw;
+    font-weight: var(--normal);
+    padding-bottom: 10px;
+}
+
+.third_section_para {
+    font-size: 1.6vw;
+    padding-bottom: 3vw;
+    font-family: var(--para-font);
+}
+
+.third_section_location_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.location_with_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.location {
+    width: 5vw;
+    height: 5vw;
+}
+
+.location img {
+    width: 100%;
+    height: 100%;
+}
+
+.location_name {
+    font-size: 1.5vw;
+    font-family: var(--para-font);
+    font-weight: var(--normal);
+}
+
+/* THIRD SECTION ENDS ********************************************************************** */
