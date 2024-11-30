@@ -55,9 +55,8 @@ a {
 /* HERO SECTION STARTS **************************************************************************** */
 
 .hero_section {
-    padding: var(--section-padding);
     background-color: var(--dark-green-color);
-    padding-top: 4vw;
+    height: 100vh;
     position: relative;
 }
 
@@ -80,7 +79,7 @@ a {
 .brand_logo {
     position: absolute;
     left: 0%;
-    top: 0%;
+    top: 5%;
     width: 25%;
 }
 
@@ -91,7 +90,7 @@ a {
 
 .hero_title {
     width: 85%;
-    padding-top: 5vw;
+    padding-top: 7vw;
     text-align: start;
     font-family: var(--heading-font);
     font-weight: var(--normal);
@@ -205,7 +204,7 @@ a {
     }
 
     100% {
-        transform: translateY(-94%);
+        transform: translateY(-92%);
         /* Move up by half of the total height */
     }
 }
@@ -219,3 +218,188 @@ a {
 }
 
 /* HERO SECTION ENDS **************************************************************************** */
+
+
+/* SECOND SECTION STARTS ********************************************************************** */
+
+.second_section {
+    padding: var(--section-padding);
+    position: relative;
+}
+
+.second_section_wrapper {
+    flex-direction: column;
+}
+
+.second_section_title {
+    width: 80%;
+    font-size: 4vw;
+    font-weight: var(--normal);
+    padding-bottom: 3vw;
+}
+
+.second_section_pill_container {
+    width: 100%;
+    display: flex;
+    gap: 3vw;
+    position: relative;
+    padding-bottom: 7vw;
+}
+
+.pill {
+    width: 15vw;
+    height: 4vw;
+    border-radius: 3vw;
+    background-color: transparent;
+    color: var(--dark-green-color);
+    font-size: 2vw;
+    cursor: pointer;
+    transition: 0.6s;
+    border: 1px solid var(--dark-green-color);
+}
+
+.pill:hover {
+    background-color: var(--yellow-color);
+    color: var(--font-color);
+}
+
+.arrows_container {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    display: flex;
+    gap: 3vw;
+}
+
+.second_section_arrow {
+    border: 2px solid var(--dark-green-color);
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.second_section_arrow span {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border-top: 2px solid var(--dark-green-color);
+    border-left: 2px solid var(--dark-green-color);
+}
+
+.second_section_arrow:hover {
+    background-color: var(--yellow-color);
+    color: var(--font-color);
+}
+
+.prev {
+    transform: rotate(-45deg);
+}
+
+.next {
+    transform: rotate(135deg);
+}
+
+.services_box {
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-green-color);
+    padding: 4vw;
+    border-radius: 3.2vw;
+    position: relative;
+}
+
+.service_box_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.service_box_left img {
+    padding-top: 2vw;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service_box_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55%;
+    border-top-right-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    height: 100%;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vw;
+}
+
+.service_box_right_title {
+    font-size: 2.5vw;
+    padding-bottom: 2vw;
+}
+
+.service_box_menu {
+    width: 90%;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 7vw;
+}
+
+.service_box_menu_top p {
+    font-size: 2vw;
+}
+
+.service_box_menu_bottom {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--font-color);
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_box_menu_bottom a {
+    font-size: 2vw;
+    color: var(--white-color);
+}
+
+.pill.active {
+    background-color: var(--yellow-color);
+}
+
+
+/* Swiper-specific styles */
+.swiper-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+    /* gap: 10vw; */
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+/* SECOND SECTION ENDS ********************************************************************** */
