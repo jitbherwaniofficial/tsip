@@ -1155,7 +1155,7 @@ a {
     font-family: var(--para-font);
     border-bottom: 1px solid rgba(238, 238, 238, 0.3);
     padding-bottom: 2vw;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
 }
 
 .made_by {
@@ -1165,6 +1165,7 @@ a {
     align-items: center;
     padding-top: 2vw;
     gap: 1.5vw;
+    color: var(--yellow-color);
 }
 
 .made_by img {
