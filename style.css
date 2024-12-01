@@ -539,6 +539,12 @@ a {
     position: relative;
     width: 31%;
     margin-bottom: 3vw;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.fourth_section_box:hover {
+    transform: translateY(-20px);
 }
 
 .fourth_section_image {
