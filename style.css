@@ -225,6 +225,7 @@ a {
 .second_section {
     padding: var(--section-padding);
     position: relative;
+    overflow: hidden;
 }
 
 .second_section_wrapper {
