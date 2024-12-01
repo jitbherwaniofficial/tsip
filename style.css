@@ -700,10 +700,9 @@ a {
     border: 2px solid var(--yellow-color);
     padding: 3vw;
     border-radius: 2vw;
-    height: 28vw;
+    height: 26vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: var(--secondary-color);
 }
 
