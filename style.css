@@ -899,6 +899,7 @@ a {
     font-size: 3vw;
     text-align: start;
     padding-bottom: 2vw;
+    font-weight: var(--normal);
   }
 
   .faq_container {
