@@ -958,3 +958,62 @@ a {
   
 
 /* EIGHT SECTION ENDS ********************************************************************** */
+
+
+/* NINTH SECTION STARTS ********************************************************************** */
+
+.ninth_section {
+    padding: var(--section-padding);
+}
+
+.ninth_section_banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner_content {
+    position: absolute;
+    padding: 5vw;
+}
+
+.banner_content_title {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: var(--normal);
+    width: 70%;
+    margin: 0 auto;
+}
+
+.banner_content_para {
+    font-size: 2vw;
+    text-align: center;
+    font-family: var(--para-font);
+    width: 50%;
+    margin: 0 auto;
+    padding: 2vw 0;
+}
+
+
+.banner_anchor_container {
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    height: 5vw;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-family: var(--para-font);
+}
+
+.banner_anchor_container a {
+    font-family: var(--para-font);
+    font-weight: var(--semi-bold);
+    color: var(--dark-green-color);
+}
+
+/* NINTH SECTION ENDS ********************************************************************** */
