@@ -1028,3 +1028,146 @@ a {
 }
 
 /* NINTH SECTION ENDS ********************************************************************** */
+
+
+/* FOOTER SECTION STARTS ********************************************************************** */
+
+.footer_section {
+    padding: var(--section-padding);
+    background-color: var(--dark-green-color);
+}
+
+.footer_wrapper {
+    flex-wrap: wrap;
+}
+
+.footer_upper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_upper_left {
+    width: 50%;
+}
+
+.logo {
+    width: 18vw;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer_upper_left_para {
+    width: 60%;
+    color: var(--secondary-color);
+    padding-top: 1vw;
+    font-size: 1.4vw;
+    font-family: var(--para-font);
+    line-height: 1.4;
+}
+
+.footer_upper_right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer_time_box {
+    background-color: var(--secondary-color);
+    width: 70%;
+    height: 100%;
+    padding: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+
+.footer_time_opening {
+    font-size: 2vw;
+    font-weight: var(--normal);
+}
+
+.timing_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+    margin:  0 auto;
+}
+
+.time {
+    font-size: 1.4vw;
+    line-height: 1.3;
+    font-family: var(--para-font);
+    width: 35%;
+}
+
+.time:nth-child(2) {
+    text-align: end;
+}
+
+.footer_middle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--secondary-color);
+    padding: 6vw 0;
+}
+
+.foot_m {
+    width: 25%;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+
+.footer_middle_title {
+    font-size: 2vw;
+    font-weight: var(--normal);
+    padding-bottom: 1vw;
+}
+
+.footer_link {
+    color: var(--secondary-color);
+    font-size: 1.2vw;
+    font-family: var(--para-font);
+}
+
+.flast {
+    color: var(--medium-white);
+}
+
+.footer_bottom {
+    text-align: center;
+    width: 100%;
+    color: var(--medium-white);
+}
+
+.copyright {
+    font-family: var(--para-font);
+    border-bottom: 1px solid rgba(238, 238, 238, 0.3);
+    padding-bottom: 2vw;
+}
+
+.made_by {
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vw;
+    gap: 1.5vw;
+}
+
+.made_by img {
+    width: 4vw;
+    height: 4vw;
+}
+
+/* FOOTER SECTION ENDS ********************************************************************** */
