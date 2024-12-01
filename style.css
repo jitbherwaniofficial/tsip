@@ -966,12 +966,22 @@ a {
     padding: var(--section-padding);
 }
 
+.ninth_section_wrapper {
+    width: 75% !important;
+    margin: 0 auto;
+}
+
 .ninth_section_banner {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.ninth_section_banner img {
+    width: 100%;
+    height: 100%;
 }
 
 .banner_content {
@@ -981,7 +991,7 @@ a {
 
 .banner_content_title {
     text-align: center;
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-weight: var(--normal);
     width: 70%;
     margin: 0 auto;
@@ -991,7 +1001,7 @@ a {
     font-size: 2vw;
     text-align: center;
     font-family: var(--para-font);
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     padding: 2vw 0;
 }
