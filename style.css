@@ -693,6 +693,7 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 3vw;
+    padding-bottom: 0;
 }
 
 .sixth_lower_container_box {
