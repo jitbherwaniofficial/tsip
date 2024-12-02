@@ -874,6 +874,11 @@
 }
 
 @media only screen and (max-width: 450px) {
+
+    .hero_section {
+        height: 90vh;
+    }
+
     .brand_logo img {
         width: 45%;
     }
@@ -917,8 +922,8 @@
     }
 
     .hero_right {
-        height: 62vw;
-        bottom: 5% !important;
+        height: 60vw;
+        /* bottom: 5% !important; */
     }
 
     .hw_img_h {
