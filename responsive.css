@@ -872,3 +872,58 @@
         height: 6vw;
     }
 }
+
+@media only screen and (max-width: 450px) {
+    .brand_logo img {
+        width: 40%;
+    }
+
+    .hero_title {
+        font-size: 8.4vw;
+    }
+
+    .hero_left {
+        justify-content: end;
+        height: 66%;
+    }
+
+    .hero_para {
+        width: 100%;
+        font-size: 4.5vw;
+        padding-top: 20px;
+    }
+
+    .order_here_pill a {
+        font-size: 4.5vw;
+    }
+
+    .pattern2 {
+        width: 45%;
+        left: 27.5%;
+        top: 15%;
+    }
+
+    .order_here_pill {
+        padding: 1vw 6vw;
+        border-radius: 5vw;
+    }
+
+    .hero_right {
+        height: 60vw;
+    }
+
+    .hw_img_h {
+        width: 45vw;
+        height: 45vw;
+    }
+
+    @keyframes scrollLeft {
+        0% {
+            transform: translateX(420%);
+        }
+
+        100% {
+            transform: translateX(-420%);
+        }
+    }
+}
