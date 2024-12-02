@@ -875,7 +875,7 @@
 
 @media only screen and (max-width: 450px) {
     .brand_logo img {
-        width: 40%;
+        width: 45%;
     }
 
     .hero_title {
@@ -900,7 +900,11 @@
     .pattern2 {
         width: 45%;
         left: 27.5%;
-        top: 15%;
+        top: 12%;
+    }
+
+    .hero_right_marque_container {
+        border: none;
     }
 
     .order_here_pill {
@@ -909,12 +913,12 @@
     }
 
     .hero_right {
-        height: 60vw;
+        height: 65vw;
     }
 
     .hw_img_h {
-        width: 45vw;
-        height: 45vw;
+        width: 50vw;
+        height: 50vw;
     }
 
     @keyframes scrollLeft {
