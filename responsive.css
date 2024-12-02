@@ -878,6 +878,10 @@
         width: 45%;
     }
 
+    .brand_logo {
+        top: 3%;
+    }
+
     .hero_title {
         font-size: 8.4vw;
     }
@@ -900,7 +904,7 @@
     .pattern2 {
         width: 45%;
         left: 27.5%;
-        top: 12%;
+        top: 10%;
     }
 
     .hero_right_marque_container {
@@ -913,7 +917,8 @@
     }
 
     .hero_right {
-        height: 65vw;
+        height: 62vw;
+        bottom: 5% !important;
     }
 
     .hw_img_h {
