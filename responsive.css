@@ -63,11 +63,11 @@
 
     @keyframes scrollLeft {
         0% {
-            transform: translateX(260%);
+            transform: translateX(290%);
         }
     
         100% {
-            transform: translateX(-260%);
+            transform: translateX(-290%);
         }
     }
 
@@ -454,4 +454,150 @@
         font-size: 2vw;
     }
 
+}
+
+@media only screen and (max-width: 768px) {
+    .pattern2 {
+        left: -130px;
+    }
+
+    .brand_logo img {
+        width: 30%;
+    }
+
+    .pattern1 {
+        top: 50%;
+    }
+
+    .hero_title {
+        font-size: 7vw;
+    }
+
+    .hero_right {
+        height: 40vw;
+    }
+
+    .hw_img_h {
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .hero_para {
+        width: 75%;
+        font-size: 3.2vw;
+        padding-top: 20px;
+    }
+
+    .order_here_pill a {
+        font-size: 3.5vw;
+    }
+
+    .order_here_pill {
+        padding: 0.7vw 5vw;
+        border-radius: 5vw;
+    }
+
+    .hero_left {
+        justify-content: end;
+        height: 65%;
+    }
+
+    .second_section_title {
+        width: 100%;
+        font-size: 5vw;
+    }
+
+    .pill {
+        font-size: 3.5vw;
+    }
+
+    .service_box_right {
+        position: static;
+        width: 110%;
+        position: relative;
+        left: -31px;
+        height: 48vw;
+        top: auto;
+        bottom: -31px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 3vw;
+        border-bottom-left-radius: 2.7vw;
+    }
+
+    .service_box_left {
+        width: 100%;
+    }
+
+    .service_box_left img {
+        width: 70%;
+    }
+
+    .service_box_right_title {
+        font-size: 3.5vw;
+        text-align: center;
+        line-height: 1.3;
+        padding-bottom: 3vw;
+    }
+
+    .service_box_menu {
+        padding-bottom: 9.5vw;
+    }
+
+    .service_box_menu_top p {
+        font-size: 3vw;
+    }
+
+    .service_box_menu_bottom a {
+        font-size: 3vw;
+    }
+
+    .service_box_menu_bottom {
+        height: 7.5vw;
+    }
+
+    .queries {
+        font-size: 3.5vw;
+    }
+
+    .third_section_wrapper {
+        padding: 6vw 0;
+        padding-top: 42vw;
+    }
+
+    .meal_tracker {
+        left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10vw;
+    }
+
+    .third_section_title {
+        font-size: 5vw;
+    }
+
+    .third_section_para {
+        font-size: 3.5vw;
+        padding-bottom: 5vw;
+        width: 65%;
+        line-height: 1.3;
+    }
+
+    .third_section_location_container {
+        width: 70%;
+    }
+
+    .location_with_name {
+        width: 30%;
+    }
+
+    .location {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .location_name {
+        font-size: 3.5vw;
+    }
 }
