@@ -946,4 +946,62 @@
         width: 100%;
         font-size: 6vw;
     }
+
+    .pill {
+        font-size: 4.5vw;
+        padding: 2vw 5vw;
+        border-radius: 5vw;
+    }
+
+    .second_section_pill_container {
+        gap: 5vw;
+        padding-bottom: 10vw;
+    }
+
+    .service_box_left img {
+        width: 100%;
+    }
+
+    .service_box_right {
+        height: 60vw;
+    }
+
+    .service_box_right {
+        left: -17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vw;
+        gap: 2vw;
+    }
+
+    .service_box_right_title {
+        width: 95%;
+        font-size: 4.5vw;
+    }
+
+    .pattern3 {
+        width: 25vw;
+    }
+
+    .service_box_menu_top p {
+        font-size: 4vw;
+    }
+
+    .service_box_menu {
+        padding-bottom: 11.5vw;
+    }
+
+    .service_box_menu_bottom {
+        height: 9.5vw;
+    }
+
+    .service_box_menu_bottom a {
+        font-size: 4vw;
+    }
+
+    .queries {
+        font-size: 4.5vw;
+        padding-top: 5vw;
+    }
 }
