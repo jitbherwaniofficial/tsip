@@ -1043,4 +1043,15 @@
         font-size: 4vw;
     }
 
+    .fourth_section_heading {
+        font-size: 6vw;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    .service_box_right {
+        left: -15px;
+        width: 110.2%;
+    }
 }

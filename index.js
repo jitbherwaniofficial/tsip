@@ -30,10 +30,10 @@ const swiper = new Swiper(".swiper-container", {
       spaceBetween: 40,
     },
     375: {
-      spaceBetween: -5,
+      spaceBetween: 40,
     },
     360: {
-      spaceBetween: 0,
+      spaceBetween: 40,
     },
   },
   slidesPerView: 1, // Number of slides to show at once
