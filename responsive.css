@@ -1203,6 +1203,142 @@
         }
     }
 
+
+    .eight_section {
+        padding: 15vw 0;
+    } 
+
+    .faq_title {
+        font-size: 6.5vw;
+        padding-bottom: 5vw;
+    }
+
+    .faq_question-text h3 {
+        font-size: 5vw;
+        line-height: 1.4;
+    }
+
+    .answer p {
+        font-size: 4vw;
+        width: 100%;
+    }
+
+    .ninth_section {
+        padding-bottom: 15vw;
+    }
+
+    .banner_content_title {
+        width: 85%;
+        font-size: 6vw;
+    }
+
+    .ninth_section_banner {
+        height: 80vw;
+    }
+
+    .ninth_section_banner img {
+        object-fit: cover;
+        border-radius: 3vw;
+    }
+
+    .banner_content_para {
+        font-size: 4vw;
+        width: 80%;
+    }
+
+    .banner_anchor_container a {
+        font-size: 4.5vw;
+    }
+
+    .banner_content {
+        position: absolute;
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    .banner_anchor_container {
+        width: 75%;
+        height: 10vw;
+    }
+
+    .footer_section {
+        padding: 15vw 0;
+    }
+
+    .logo {
+        width: 40vw;
+    }
+
+    .footer_upper_left_para {
+        font-size: 4vw;
+        width: 100%;
+        padding-top: 5vw;
+    }
+
+    .footer_upper_left {
+        width: 90%;
+    }
+
+    .footer_upper_right {
+        width: 100%;
+    }
+
+    .footer_time_opening {
+        font-size: 5vw;
+    }
+
+    .timing_container {
+        width: 80%;
+        padding: 2vw;
+    }
+
+    .footer_time_box {
+        gap: 4vw;
+    }
+
+    .time {
+        font-size: 3.5vw;
+        width: 100%;
+    }
+
+    .footer_upper {
+        gap: 10vw;
+    }
+
+    .footer_middle {
+        padding: 10vw 0;
+        gap: 10vw;
+    }
+
+    .footer_middle_title {
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .footer_link {
+        font-size: 4.5vw;
+        text-align: center;
+    }
+
+    .foot_m {
+        width: 90%;
+    }
+
+    .copyright {
+        font-size: 3.2vw;
+        padding-bottom: 5vw;
+    }
+
+
+    .made_by {
+        font-size: 4vw;
+        gap: 3vw;
+        padding-top: 4vw;
+    }
+
+
 }
 
 @media only screen and (max-width: 360px) {
