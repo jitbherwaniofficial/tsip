@@ -917,8 +917,9 @@
     }
 
     .order_here_pill {
-        padding: 1vw 6vw;
+        padding: 2vw 10vw;
         border-radius: 5vw;
+        margin-top: 3vw;
     }
 
     .hero_right {
@@ -939,5 +940,10 @@
         100% {
             transform: translateX(-420%);
         }
+    }
+
+    .second_section_title {
+        width: 100%;
+        font-size: 6vw;
     }
 }
