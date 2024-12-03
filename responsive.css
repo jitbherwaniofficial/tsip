@@ -876,7 +876,7 @@
 @media only screen and (max-width: 450px) {
 
     .hero_section {
-        height: 92vh;
+        height: 95vh;
     }
 
     .brand_logo img {
@@ -893,7 +893,7 @@
 
     .hero_left {
         justify-content: end;
-        height: 67%;
+        height: 65%;
     }
 
     .hero_para {
@@ -906,10 +906,16 @@
         font-size: 4.5vw;
     }
 
-    .pattern2 {
+    /* .pattern2 {
         width: 43%;
         left: 27.5%;
         top: 10%;
+    } */
+
+    .pattern2 {
+        width: 55%;
+        left: -17.5%;
+        top: 17%;
     }
 
     .hero_right_marque_container {
