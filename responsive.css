@@ -988,6 +988,7 @@
 
     .service_box_menu_top p {
         font-size: 4vw;
+        text-align: center;
     }
 
     .service_box_menu {
