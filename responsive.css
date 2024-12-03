@@ -928,8 +928,8 @@
     }
 
     .hw_img_h {
-        width: 50vw;
-        height: 50vw;
+        width: 55vw;
+        height: 55vw;
     }
 
     @keyframes scrollLeft {
