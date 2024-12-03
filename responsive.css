@@ -961,6 +961,7 @@
 
     .service_box_left img {
         width: 100%;
+        height: 85vw;
     }
 
     .service_box_right {
