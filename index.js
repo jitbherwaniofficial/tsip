@@ -23,7 +23,7 @@ const swiper = new Swiper(".swiper-container", {
     768: {
       spaceBetween: 40,
     },
-    430: {
+    450: {
       spaceBetween: 40,
     },
     400: {
