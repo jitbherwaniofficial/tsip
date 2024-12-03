@@ -934,11 +934,11 @@
 
     @keyframes scrollLeft {
         0% {
-            transform: translateX(420%);
+            transform: translateX(490%);
         }
 
         100% {
-            transform: translateX(-420%);
+            transform: translateX(-490%);
         }
     }
 
