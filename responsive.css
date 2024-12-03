@@ -1049,8 +1049,158 @@
         font-size: 4vw;
     }
 
+    .fourth_section {
+        padding: 15vw 0;
+    }
+
     .fourth_section_heading {
+        font-size: 6.5vw;
+    }
+
+    .fourth_section_para {
+        font-size: 4.5vw;
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fourth_section_wrapper {
+        gap: 6vw;
+    }
+
+    .fifth_section {
+        padding: 15vw 0;
+    }
+
+    .fifth_left {
+        width: 100%;
+    }
+
+    .fifth_section_heading {
+        font-size: 6.5vw;
+        line-height: 1.4;
+    }
+
+    .fifth_section_box {
+        height: 80vw;
+    }
+
+    .fifth_section_image {
+        width: 30%;
+    }
+
+    .fifth_box_title {
         font-size: 6vw;
+    }
+
+    .fifth_box_para {
+        font-size: 4.5vw;
+        width: 75%;
+    }
+
+    .fifth_right {
+        gap: 6vw;
+    }
+
+    .sixth_section_title {
+        width: 75%;
+        font-size: 6.5vw;
+    }
+
+    .sixth_section_para {
+        width: 100%;
+        font-size: 4.5vw;
+    }
+
+    .sixth_lower_container_box {
+        width: 100%;
+        height: 80vw;
+    }
+
+    .sixth_lower_box_image {
+        width: 25vw;
+        height: 25vw;
+    }
+    .sixth_lower_box_title {
+        font-size: 6vw;
+    }
+
+    .sixth_lower_box_para {
+        font-size: 4vw;
+        width: 80%;
+    }
+
+    .sixth_lower_container {
+        gap: 6vw;
+    }
+
+
+    .sixth_section {
+        padding: 15vw 0;
+    }
+
+    .seventh_section {
+        padding: 15vw 0;
+    }
+
+    .seventh_left {
+        height: 100vw;
+    }
+
+    .seventh_right_image {
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .seventh_right {
+        padding-top: 32vw;
+        gap: 5vw;
+    }
+
+    .seventh_right_title {
+        font-size: 6.5vw;
+        text-align: center;
+    }
+
+
+    .seventh_right_para {
+        font-size: 3.5vw;
+    }
+
+    .seventh_testimonial {
+        color: var(--white-color);
+        padding-top: 10vw;
+    }
+
+    .testimonial_title {
+        font-size: 6.5vw;
+        padding-bottom: 7vw;
+    }
+
+    .testimonial_box {
+        width: 75vw;
+    }
+
+    .testimonial_box span {
+        font-size: 6vw;
+    }
+
+    .seventh_quotes {
+        font-size: 4vw;
+    }
+
+    .testimonial_box address {
+        font-size: 4vw;
+    }
+
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(-80%);
+        }
     }
 
 }
