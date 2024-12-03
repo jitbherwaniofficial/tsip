@@ -1005,6 +1005,42 @@
 
     .queries {
         font-size: 4.5vw;
-        padding-top: 5vw;
+        padding-top: 10vw;
     }
+
+    .third_section_wrapper {
+        padding: 10vw 0;
+        padding-top: 70vw;
+    }
+
+    .third_section {
+        background-color: var(--yellow-color);
+        position: relative;
+        margin: 5vw 0;
+    }
+
+    .third_section_title {
+        font-size: 7vw;
+        width: 60%;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .third_section_para {
+        font-size: 5vw;
+    }
+
+    .location {
+        width: 13vw;
+        height: 13vw;
+    }
+
+    .third_section_location_container {
+        width: 85%;
+    }
+
+    .location_name {
+        font-size: 4vw;
+    }
+
 }
